@@ -2,7 +2,6 @@ from detection import detect_people
 from scipy.spatial import distance as dist
 import numpy as np
 import streamlit as st
-import imutils
 import cv2
 
 def video_detect(video_name, MIN_CONF):
