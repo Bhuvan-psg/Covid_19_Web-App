@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-import imutils
 import cv2
 from video import video_detect
 from webcam import cam_detect
