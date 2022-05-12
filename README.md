@@ -2,7 +2,7 @@
 A GUI Based Social Distancing Monitor System Using Yolo &amp; OpenCV
 ## Download the weights:
  'https://pjreddie.com/media/files/yolov3.weights'
-##Move it to the repository you are working
+## Move it to the repository you are working!!
 ## How to Run
 Download the all project file and run:
 
