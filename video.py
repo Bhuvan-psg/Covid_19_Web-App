@@ -40,7 +40,7 @@ def video_detect(video_name, MIN_CONF):
         if not grabbed:
             break
 
-        frame = imutils.resize(frame, width=700)
+        frame = cv2.resize(frame, (700,700))
         results = detect_people(frame, net, ln,
                                 personIdx=LABELS.index("person"))
 
