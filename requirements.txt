@@ -11,7 +11,8 @@ matplotlib>=1.4.3
 pandas>=0.19
 flasgger==0.9.4
 Pillow==7.1.2
-opencv-python==3.3.0.9
+opencv-python
 wget==3.2
 streamlit
-imutils==0.5.3
+imutils
+libsm6
