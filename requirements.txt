@@ -14,3 +14,5 @@ Pillow==7.1.2
 opencv-python-headless
 wget==3.2
 streamlit
+gstreamer-player
+gcc7
