@@ -1,11 +1,12 @@
 # Social Distancing Detector
 A GUI Based Social Distancing Monitor System Using Yolo &amp; OpenCV
-## Demo Video
-![Real-Time Social Distance Detector:](https://github.com/TechyNilesh/Social-Distancing-Detector/blob/master/demo_video/Social%20distance%20Detector%20New.gif?raw=true "Real-Time Social Distance Detector:")
+## Download the weights:
+ 'https://pjreddie.com/media/files/yolov3.weights'
+ Move it to the repository you are working
 ## How to Run
 Download the all project file and run:
 
-    streamlit run SDD_GUI.py
+    streamlit run app.py
 
-### Design and Development By @TechyNilesh
+### Design and Developed By @Bhuvaneshwaran R
 
