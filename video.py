@@ -14,8 +14,10 @@ def video_detect(video_name, MIN_CONF):
 
     USE_GPU = bool(cuda)
     MIN_DISTANCE = 50
-    weightsPath = "yolov3.weights"
-    #weightsPath = file_name
+    file_url = 'https://pjreddie.com/media/files/yolov3.weights'
+    file_name = wget.download(file_url)
+    #weightsPath = "yolov3.weights"
+    weightsPath = file_name
     configPath = "yolo-coco/yolov3.cfg"
 
     net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
