@@ -34,7 +34,7 @@ if st.button('Start'):
     st.info("[INFO] Accessing Video Stream...")
     
     if option == "Try Live Detection Using Webcam":
-        cam_detect(1, MIN_CONF)
+        cam_detect(0, MIN_CONF)
     else:
         if tfile.name is not None:
             video_detect(tfile.name, MIN_CONF)
