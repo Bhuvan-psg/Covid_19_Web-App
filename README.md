@@ -1,4 +1,4 @@
-# Social Distancing Detector
+# Social Distancing Detection AI System
 A GUI Based Social Distancing Monitor System Using Yolo &amp; OpenCV
 ## Download the weights:
  'https://pjreddie.com/media/files/yolov3.weights'
